@@ -1,0 +1,458 @@
+body{
+	background-image:url("images/fondo.jpg");
+	width:1000px;
+	padding-left:100px;
+	background-color:lightgrey;
+    background-attachment: fixed;
+    max-height:100%;
+}
+#imagen_logo{
+	float:left;
+	position:relative;
+	left:0.5ex;
+	top:0.5ex;
+}
+#fotoLogin{
+	position:relative;
+	bottom:3.1em;
+	left:57.2em;
+	-webkit-transition:-webkit-transform 2s;
+	
+}
+#Cabecera{
+	border:outset;
+	border-radius: 10px 10px 0px 0px;
+	border-color:black;
+	padding-left:150px;
+	background-color:RED;
+	background-size:30ex;
+	color:white;
+}
+h1{
+	color:black;
+	text-shadow:2px 2px blue;
+	border-style:inherit;
+	border-color:darkgrey;
+	background-image:url("images/cuadricula.jpg");
+}
+h3{
+	color:red;
+}
+h4{
+	text-align:center;
+	font-family:"Arial Black";
+	color:black;
+	background-color:#ffffcc;
+	width:40ex;
+}
+#parrafo{
+	position:relative;
+	left:1em;
+	font-family:"Bodoni MT";
+	font-size:large;
+	width:35em;
+	
+}
+#fotoHospital{
+	
+	position:relative;
+	left:3ex;
+}
+#Menú{
+	height:8ex;
+	font-weight:bold;
+	font-family:"verdana";
+	background-image:url("images/luzmenu.jpg");
+	border:outset;
+	border-color:black;
+}
+ul{
+	text-decoration:none;
+	border-radius: 4px 4px 4px 4px;
+	width:55ex;
+	background-color:#ffffcc;
+}
+li:hover{
+	-webkit-animation:myfirst 5s;
+	cursor:hand;
+}
+@-webkit-keyframes myfirst
+{
+0%   {background:#ffffcc;}
+25%  {background:grey;}
+50%  {background:grey;}
+100% {background:#ffffcc;}
+}
+li{
+	display:inline;
+}
+li a{
+	text-decoration:none;
+}
+#Especialidades{
+	text-align:center;
+	position:relative;
+	height:16ex;
+	
+}
+#tablaespe{
+	position:relative;
+	left:40ex;
+	
+}
+#med{
+	text-align:center;
+	position:relative;
+	left:6ex;
+	width:40ex;
+	border:inset;
+	padding : 1.5px;
+}
+
+#variablesesion{
+	float:left;
+	font-family:"Script MT Bold";
+	color:#0000FF;
+}
+#cerrar{
+	text-shadow:none;
+	background-color:#FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+	font-weight:bolder;
+	text-align:right;
+	position:relative;
+	bottom:4ex;
+}
+#div_esp{
+	min-height:45ex;
+	border:outset;
+	border-color:black;
+	background-image:url("images/celeste.png");
+}
+#main2{
+	min-height:45ex;
+	height:100%;
+	border:outset;
+	border-color:black;
+	background-image:url("images/celeste.png");
+}
+#main{
+	min-height:90ex;
+	height:100%;
+	border:outset;
+	border-color:black;
+	background-image:url("images/celeste.png");
+}
+#main3{
+	text-align:center;
+	height:45ex;
+	border:outset;
+	border-color:black;
+	background-image:url("images/celeste.png");
+}
+#datosperfil{
+	font-family:"Bodoni MT";
+	text-align:center;
+	background-color:#ffffcc;
+}
+#editar{
+	text-align:center;
+}
+#registro{
+	min-height:115ex;
+	height:100%;
+	border:outset;
+	border-color:black;
+	background-color:#0099ff;
+	padding-left:3em;
+	padding-right:3em;
+}
+#main2 h2{
+	font-family:"Impact", Charcoal, sans-serif;
+	font-size:20px;
+}
+#main h2{
+	font-family:"Impact", Charcoal, sans-serif;
+	font-size:20px;
+}
+#main3 h2{
+	font-family:"Impact", Charcoal, sans-serif;
+	font-size:20px;
+}
+#div_esp h2{
+	font-family:"Impact", Charcoal, sans-serif;
+	font-size:20px;
+}
+#Piepagina{
+	color:white;
+	background-color:black;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+/*REGISTRO*/
+#usuario,#contraseñaa,#acceder{
+	position:relative;
+	top:3em;
+	left:20.5em;
+}
+#acceder{
+	position:relative;
+	left:32em;
+}
+#contraseñaa{
+	margin-bottom: 1em;
+}
+#label_nombreusuario,
+#label_contraseña{
+	font-family:"";
+	font-size:6ex;
+	display:block;
+	float:left;
+	width:10em;
+	font-size:2ex;
+	font-variant:small-caps;
+}
+button#submit_acceder{
+	background-color:BLUE;
+}
+button#submit_acceder:hover{
+	background-color:white;
+ 
+}
+#crea_cuenta{
+	float:right;
+	border:ridge;
+	border-radius: 0px 0px 0px 10px;
+	background-image:url("images/fondo1.jpg");
+	color:white;
+	text-shadow:2px 2px black;
+	font-style:oblique;
+	font-variant:small-caps;
+}
+#imagenvertical{
+	float:right;
+	position:relative;
+	right:0.5em;
+	top:7em;
+}
+#parrafologin{
+	font-size:small;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:3em;
+	left:2em;
+	
+}
+#registrarse{
+    text-shadow:none;
+	background-color:#ffffcc;
+	width:12.5ex;
+	border-radius: 5px 5px 5px 5px;
+	font-weight:bolder;
+	position:relative;
+	bottom:0.1em;
+	left:4em;
+	-webkit-transition:-webkit-transform 2s;
+}
+#registrarse:active{
+	position:relative;
+	top:0.4ex;	
+}
+#registrarse:hover{
+	-webkit-transform:rotate(360deg);
+}
+#div_submit{
+	text-align:center;
+}
+button#submit{
+	height:3em;
+	width:8em;
+	background-color:blue;
+	font-style:italic;
+	font-size:15px;
+}
+button#submit:hover{
+	background-color:beige;
+	cursor:hand;
+}
+input#foto:hover{
+	cursor:hand;
+}
+input,select{
+	border: 1 px groove blue;
+}
+/*Espacion entre elementos formulario por debajo*/
+#div_cedula,
+#div_eligeespe,
+#div_nombreusuarioreg,
+#div_contraseñareg,
+#div_nombre,
+#div_apellidos,
+#div_foto,
+#div_habilitar,
+#div_email,
+#div_dni,
+#div_nsocial,
+#div_email,
+#div_telefono,
+#div_poblacion,
+#div_provincia,
+#div_calle,
+#div_cogigop{
+	  margin-bottom: 0.5em;
+}
+#div_cedula{
+	float:left;
+}
+#texto_habilitar{
+	font-family:"Blackadder ITC";
+	font-size:2.5ex;
+	color: blue;
+}
+#Direccion{
+	margin-bottom:0.5em;
+}
+#habilitar{
+	margin-bottom:0.5em;
+	float:right;
+	position:relative;
+	right:7em;
+}
+/*elemento Sexo a la derecha*/
+#div_sexo{
+	float:right;
+}
+#div_cedula{
+	margin-right:2em;
+}
+#div_nombre{
+	float:left;
+	margin-right:2em;
+}
+#div_poblacion{
+	float:left;
+	margin-right:2em;
+}
+/*Alinear todos los input*/
+#label_cedula,
+#label_eligeespe,
+#label_nusuario,
+#label_contraseñareg,
+#label_contraseñaconf,
+#label_nombre,
+#label_apellidos,
+#label_dni,
+#label_foto,
+#label_nsocial,
+#label_email,
+#label_telefono,
+#label_poblacion,
+#label_provincia,
+#label_calle,
+#label_codigop{
+	display:block;
+	float:left;
+	width:10em;
+}
+#label_email2{
+	width:8em;
+}
+/*Tamaño de los inputs*/
+
+input#nusuario{
+	width:8em;
+}
+input#nombre{
+	width:8em;
+}
+input#apellidos{
+	width:16em;
+}
+input#letra{
+	width:2em;
+}
+input#dni{
+	width:9em;
+}
+input#foto{
+	width:18em;
+}
+input#nsocial1{
+	width:2em;
+}
+input#nsocial2{
+	width:11em;
+}
+input#telefono{
+	width:8em;
+}
+input#email{
+	width:14em;
+}
+input#poblacion{
+	width:17em;
+}
+input#calle{
+	width:21em;
+}
+input#codigop{
+	width:6em;
+}
+#borrar{
+	float:right;
+}
+#actualizar{
+	float:right;
+}
+#div_terminar{
+	text-align:center;
+	position:relative;
+	left:65ex;
+	border:inherit;
+	width: 20ex;
+	cursor:hand;
+}
+#div_terminar:hover{
+	background-color:white;
+}
+#SI,#NO{
+	margin-bottom: 0.5em;
+	position:relative;
+	left:65ex;
+	text-align:center;
+	border:inherit;
+	width:20ex;
+}
+#SI:hover,#NO:hover{
+	background-color:white;
+}
+
+
+
+/*clase error*/
+label.error,div.error2 {
+	color : red;
+}
+/*habilitar datosmedico*/
+div.nodisplay{
+	display:none;
+}
+div.display{
+	display:compact;
+}
+div.error{
+	text-align:center;
+	color : white;
+	border : 2px solid red;
+	width:50ex;
+	padding : 5px;
+	margin: 5px;
+}
+
+
+
+
+
+
+
